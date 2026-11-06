@@ -1,0 +1,358 @@
+{
+  "id": "Correcao-CDIA-2026-4",
+  "phase1_template_id": "CDIA-Fase1",
+  "phase2_template_id": "CDIA-Fase2",
+  "student_count": 7,
+  "work_items": [
+    {
+      "id": "trabalho-1",
+      "student_name": "cassio de moura e azambuja",
+      "shared_observation": "",
+      "phase1": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": true,
+        "selected_comments": {
+          "Critério 1": [
+            "teste"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ],
+          "Critério 5": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      },
+      "phase2": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      }
+    },
+    {
+      "id": "trabalho-2",
+      "student_name": "cecília bobsin do canto",
+      "shared_observation": "",
+      "phase1": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ],
+          "Critério 5": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      },
+      "phase2": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      }
+    },
+    {
+      "id": "trabalho-3",
+      "student_name": "gustavo campos alves",
+      "shared_observation": "",
+      "phase1": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ],
+          "Critério 5": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      },
+      "phase2": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      }
+    },
+    {
+      "id": "trabalho-4",
+      "student_name": "gustavo souza campos",
+      "shared_observation": "",
+      "phase1": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ],
+          "Critério 5": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      },
+      "phase2": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      }
+    },
+    {
+      "id": "trabalho-5",
+      "student_name": "igor da silva",
+      "shared_observation": "",
+      "phase1": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ],
+          "Critério 5": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      },
+      "phase2": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      }
+    },
+    {
+      "id": "trabalho-6",
+      "student_name": "pedro pereira",
+      "shared_observation": "",
+      "phase1": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ],
+          "Critério 5": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      },
+      "phase2": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      }
+    },
+    {
+      "id": "trabalho-7",
+      "student_name": "rafaela de castilhos",
+      "shared_observation": "",
+      "phase1": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ],
+          "Critério 5": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      },
+      "phase2": {
+        "grade": 0,
+        "delivery_stage": "Regular",
+        "corrected": false,
+        "selected_comments": {
+          "Critério 1": [
+            "OK"
+          ],
+          "Critério 2": [
+            "OK"
+          ],
+          "Critério 3": [
+            "OK"
+          ],
+          "Critério 4": [
+            "OK"
+          ]
+        },
+        "header_comments": [],
+        "footer_comments": []
+      }
+    }
+  ]
+}

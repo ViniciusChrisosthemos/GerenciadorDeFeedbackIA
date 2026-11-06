@@ -1,0 +1,203 @@
+{
+  "templates": [
+    {
+      "id": "fase-1-padrao",
+      "max_grade": 10,
+      "criteria": [
+        {
+          "id": "Estrutura",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "Estrutura adequada."
+            },
+            {
+              "id": "ORG",
+              "message": "Organize melhor a sequência das ideias."
+            }
+          ]
+        },
+        {
+          "id": "Conteúdo",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "Conteúdo adequado."
+            },
+            {
+              "id": "APR",
+              "message": "Aprofunde a discussão dos conceitos principais."
+            }
+          ]
+        }
+      ],
+      "header_comments": [
+        {
+          "id": "OK",
+          "message": "Obrigado pela entrega."
+        }
+      ],
+      "footer_comments": [
+        {
+          "id": "REV",
+          "message": "Revise os pontos indicados antes da próxima entrega."
+        }
+      ]
+    },
+    {
+      "id": "fase-2-padrao",
+      "max_grade": 10,
+      "criteria": [
+        {
+          "id": "Correções",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "As correções solicitadas foram contempladas."
+            },
+            {
+              "id": "PEN",
+              "message": "Ainda há ajustes pendentes em relação à etapa anterior."
+            }
+          ]
+        },
+        {
+          "id": "Resultado",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "Resultado final adequado."
+            },
+            {
+              "id": "FIN",
+              "message": "Finalize melhor a apresentação do resultado."
+            }
+          ]
+        }
+      ],
+      "header_comments": [
+        {
+          "id": "RET",
+          "message": "Segue o retorno da segunda fase."
+        }
+      ],
+      "footer_comments": [
+        {
+          "id": "ENC",
+          "message": "Bom trabalho no fechamento da atividade."
+        }
+      ]
+    },
+    {
+      "id": "CDIA-Fase1",
+      "max_grade": 3.0,
+      "criteria": [
+        {
+          "id": "Critério 1",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "OK"
+            },
+            {
+              "id": "teste",
+              "message": "mensagem teste"
+            }
+          ]
+        },
+        {
+          "id": "Critério 2",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "OK"
+            }
+          ]
+        },
+        {
+          "id": "Critério 3",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "OK"
+            }
+          ]
+        },
+        {
+          "id": "Critério 4",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "OK"
+            }
+          ]
+        },
+        {
+          "id": "Critério 5",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "OK"
+            }
+          ]
+        }
+      ],
+      "header_comments": [
+        {
+          "id": "Muito bom!",
+          "message": "Seu trabalho ficou muito bom, parabéns!"
+        }
+      ],
+      "footer_comments": [
+        {
+          "id": "Dificuldades",
+          "message": "Em casos de dificuldades, não hesite em enviar suas dúvidas."
+        }
+      ]
+    },
+    {
+      "id": "CDIA-Fase2",
+      "max_grade": 4.0,
+      "criteria": [
+        {
+          "id": "Critério 1",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "OK"
+            }
+          ]
+        },
+        {
+          "id": "Critério 2",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "OK"
+            }
+          ]
+        },
+        {
+          "id": "Critério 3",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "OK"
+            }
+          ]
+        },
+        {
+          "id": "Critério 4",
+          "comments": [
+            {
+              "id": "OK",
+              "message": "OK"
+            }
+          ]
+        }
+      ],
+      "header_comments": [],
+      "footer_comments": []
+    }
+  ]
+}

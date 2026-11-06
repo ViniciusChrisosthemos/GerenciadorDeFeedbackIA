@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Correção de Trabalhos</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar">
+      <section class="brand">
+        <h1>Correções</h1>
+        <p>Templates e avaliações escolares</p>
+      </section>
+
+      <section class="panel">
+        <h2>Novo Template</h2>
+        <form id="template-form" class="stack">
+          <label>
+            Identificador
+            <input id="template-id" required placeholder="fase-1">
+          </label>
+          <label>
+            Nota máxima
+            <input id="template-max-grade" type="number" min="0" step="0.1" required value="10">
+          </label>
+          <label>
+            Critérios
+            <textarea id="template-criteria" rows="4" placeholder="Um critério por linha"></textarea>
+          </label>
+          <button type="submit" class="primary">Criar Template</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <h2>Nova Correção</h2>
+        <form id="correction-form" class="stack">
+          <label>
+            Identificador
+            <input id="correction-id" required placeholder="turma-a-trabalho-1">
+          </label>
+          <label>
+            Fase 1
+            <select id="phase1-template"></select>
+          </label>
+          <label>
+            Fase 2
+            <select id="phase2-template"></select>
+          </label>
+          <label>
+            Quantidade de alunos
+            <input id="student-count" type="number" min="1" step="1" value="1">
+          </label>
+          <button type="submit" class="primary">Criar Correção</button>
+        </form>
+      </section>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar">
+        <div>
+          <label>Correção</label>
+          <select id="correction-select"></select>
+        </div>
+        <div class="topbar-actions">
+          <button id="add-work-item" class="primary" type="button">Adicionar Aluno</button>
+          <button id="remove-work-item" type="button">Remover Aluno</button>
+        </div>
+      </header>
+
+      <section id="empty-state" class="empty-state">
+        Crie ou selecione uma correção para começar.
+      </section>
+
+      <section id="editor" class="editor hidden">
+        <div class="main-editor">
+          <div class="row compact">
+            <label>
+              Trabalho
+              <select id="work-item-select"></select>
+            </label>
+            <div class="phase-toggle" role="group" aria-label="Fase avaliada">
+              <button id="phase1-button" type="button" data-phase="phase1">Fase 1</button>
+              <button id="phase2-button" type="button" data-phase="phase2">Fase 2</button>
+              <button id="corrected-toggle" type="button">Corrigido</button>
+            </div>
+          </div>
+
+          <section class="zip-import">
+            <h2>Importar Arquivos</h2>
+            <div class="folder-row">
+              <label>
+                Pasta com ZIPs e PDFs
+                <input id="zip-source-dir" placeholder="Selecione ou cole o caminho da pasta de origem">
+              </label>
+              <button id="select-zip-source" type="button">Selecionar</button>
+            </div>
+            <div class="folder-row">
+              <label>
+                Pasta destino
+                <input id="zip-destination-dir" placeholder="Selecione ou cole o caminho da pasta destino">
+              </label>
+              <button id="select-zip-destination" type="button">Selecionar</button>
+            </div>
+            <button id="import-zips" class="primary" type="button">Processar Arquivos e Inserir Alunos</button>
+            <p id="zip-import-status" class="status-line"></p>
+          </section>
+
+          <div class="row">
+            <label>
+              Nome do aluno
+              <input id="student-name">
+            </label>
+            <label>
+              Nota
+              <input id="grade" type="number" min="0" step="0.1">
+            </label>
+            <label>
+              Etapa de entrega
+              <select id="delivery-stage">
+                <option>Regular</option>
+                <option>Atraso</option>
+                <option>Refação</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Observação
+            <textarea id="shared-observation" rows="3"></textarea>
+          </label>
+
+          <section class="assessment-grid">
+            <nav id="criteria-list" class="criteria-list" aria-label="Critérios"></nav>
+            <div class="comment-column">
+              <h2 id="selected-criterion-title">Critério</h2>
+              <div id="criterion-comments" class="button-grid"></div>
+            </div>
+          </section>
+
+          <section class="comment-tools">
+            <h2>Adicionar Comentário</h2>
+            <form id="comment-form" class="comment-form">
+              <select id="comment-area">
+                <option value="criterion">Critério selecionado</option>
+                <option value="header">Cabeçalho</option>
+                <option value="footer">Rodapé</option>
+              </select>
+              <input id="comment-id" placeholder="Identificador" required>
+              <input id="comment-message" placeholder="Mensagem" required>
+              <button type="submit" class="primary">Adicionar</button>
+            </form>
+          </section>
+
+          <section class="header-footer">
+            <div>
+              <h2>Cabeçalho</h2>
+              <div id="header-comments" class="button-grid"></div>
+            </div>
+            <div>
+              <h2>Rodapé</h2>
+              <div id="footer-comments" class="button-grid"></div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="report-pane">
+          <label>
+            Relatório
+            <textarea id="report" spellcheck="true"></textarea>
+          </label>
+        </aside>
+      </section>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" aria-live="polite"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
